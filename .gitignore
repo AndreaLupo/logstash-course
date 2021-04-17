@@ -1,0 +1,14 @@
+bin
+jdk
+lib
+logs
+logstash-core*
+modules
+tools
+vendor
+x-pack
+CONTRIBUTORS
+Gemfile*
+LICENSE.txt
+NOTICE.txt
+output.txt
