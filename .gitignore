@@ -12,3 +12,5 @@ Gemfile*
 LICENSE.txt
 NOTICE.txt
 output.txt
+access_*
+data/apache/apache_access_*
