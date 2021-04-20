@@ -14,3 +14,4 @@ NOTICE.txt
 output.txt
 access_*
 data/apache/apache_access_*
+.sincedb_*
