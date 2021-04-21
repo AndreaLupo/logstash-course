@@ -84,3 +84,10 @@
 #   Default is path.data/dead_letter_queue
 #
 #   path.dead_letter_queue:
+
+- pipeline.id: access_logs
+  #pipeline.batch.size: 125
+  path.config: "D:/Andrea/corsi/elasticsearch/programmi/logstash-7.12.0/config/pipelines/apache/16.access.conf"
+- pipeline.id: error_logs
+  pipeline.batch.size: 1
+  path.config: "D:/Andrea/corsi/elasticsearch/programmi/logstash-7.12.0/config/pipelines/apache/16.error.conf"
